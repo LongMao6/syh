@@ -1,0 +1,11 @@
+#include <stdio.h>
+void main()
+{
+int num1,num2,max;
+printf("Please input two numbers:"); 
+scanf("%d,%d",&num1,&num2);  
+max=num1;
+if(max<num2) 
+max=num2;
+printf("max=%d\n",max);
+}
